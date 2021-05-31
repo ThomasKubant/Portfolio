@@ -1,0 +1,48 @@
+:root {
+    --black: #2d2d2aff;
+--grey: #4c4c47ff;
+--orange-web: #ffa400ff;
+--white: #e0e2dbff;
+--blue: #4d9de0ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: var(--white)!important;
+}
+
+.container-fluid {
+    padding: 0px!important;
+}
+
+header {
+    padding: 10px 10px;
+}
+
+.splash {
+    margin-top: 20vh!important;
+}
+
+.splash h1 {
+    color: var(--blue);
+}
+
+.splash h2 {
+    font-size: 24px;
+    color: var(--grey);
+}
+
+.aboutMe {
+    padding-top: 15vh!important;
+    margin-top: 60vh!important;
+    background-color: var(--orange-web);
+}
+.aboutMe h3 {
+    color: var(--grey);
+}
